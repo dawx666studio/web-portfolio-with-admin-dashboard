@@ -44,7 +44,7 @@ export function NewsletterSection() {
   };
 
   return (
-    <section className="bg-[#1e1b24] text-white py-16 px-4 sm:px-6 lg:px-8 border-t-4 border-black">
+    <section className="bg-[#1e1b24] text-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl tracking-wide uppercase text-cream-100 mb-3">
           Stay in the loop!
@@ -73,13 +73,13 @@ export function NewsletterSection() {
               variant="pink"
               size="lg"
               disabled={status === "loading"}
-              className="rounded-full shadow-retro-sm whitespace-nowrap"
+              className="rounded-full whitespace-nowrap"
             >
               {status === "loading" ? (
                 "Signing up..."
               ) : (
                 <span className="flex items-center gap-2">
-                  <Sparkles className="w-4 h-4" /> Sign Up!
+                 Sign Up!
                 </span>
               )}
             </Button>

@@ -61,7 +61,7 @@ export function InstagramGrid() {
           href="https://instagram.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-fructus-pink text-fructus-red font-black text-sm border-2 border-black shadow-retro-sm hover:shadow-retro hover:bg-fructus-pinkDark transition-all"
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-fructus-red hover:bg-fructus-redDark text-white font-black text-sm transition-all"
         >
           <Instagram className="w-4 h-4" />
           <span>Follow @dawx666</span>

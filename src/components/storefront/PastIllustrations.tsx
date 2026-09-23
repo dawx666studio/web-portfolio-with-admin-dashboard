@@ -2,7 +2,7 @@ import Image from "next/image";
 const INITIAL_PAST_ILLUSTRATIONS = [
   {
     id: "past-1",
-    title: "Animegurl",
+    title: "Newbie",
     image: "/images/illustrations/animegurl.jpg.jpeg",
   },
   {
@@ -12,22 +12,22 @@ const INITIAL_PAST_ILLUSTRATIONS = [
   },
   {
     id: "past-3",
-    title: "Jay Don",
+    title: "I'll Be Good",
     image: "/images/illustrations/jay-don.jpg.jpeg",
   },
   {
     id: "past-4",
-    title: "Juice Road",
+    title: "End Of The Road",
     image: "/images/illustrations/juice-road.jpg.jpeg",
   },
   {
     id: "past-5",
-    title: "Travis and Stormi",
+    title: "Travis & Stormi",
     image: "/images/illustrations/travis-and-stromi.jpg.jpeg",
   },
   {
     id: "past-6",
-    title: "Uzi Love",
+    title: "Chill Bae",
     image: "/images/illustrations/uzi-love.jpg.jpeg",
   },
 ];

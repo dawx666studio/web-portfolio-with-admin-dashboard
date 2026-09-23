@@ -46,12 +46,12 @@ export function Header() {
               </button>
             </div>
             
-            <Link href="/" className="relative w-8 h-8 sm:w-10 sm:h-10 hover:scale-105 transition-transform flex-shrink-0">
+            <Link href="/" className="relative w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform flex-shrink-0 rounded-full overflow-hidden">
               <Image
-                src="/images/logo bg removed.jpg"
+                src="/images/dewnithlogo.jpg"
                 alt="Dawx666 Logo"
                 fill
-                className="object-contain"
+                className="object-cover scale-105"
               />
             </Link>
           </div>

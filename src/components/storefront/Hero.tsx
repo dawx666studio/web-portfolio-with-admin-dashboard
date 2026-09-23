@@ -17,7 +17,7 @@ export function Hero({
   ctaLink = "/shop",
 }: HeroProps) {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-[#2b2438] via-[#3a284c] to-[#1e1b24] text-white py-8 sm:py-12 px-4 sm:px-6 lg:px-8 border-b-4 border-black">
+    <section className="relative overflow-hidden bg-fructus-red text-white py-8 sm:py-12 px-4 sm:px-6 lg:px-8">
       {/* Decorative sticker art collage background overlay */}
       <div className="absolute inset-0 opacity-20 pointer-events-none mix-blend-overlay">
         <Image
@@ -33,12 +33,12 @@ export function Hero({
         
         {/* Artist Avatar Circle */}
         <div className="relative flex-shrink-0">
-          <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full border-4 border-white overflow-hidden shadow-retro-lg relative bg-fructus-pink">
+          <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full border-4 border-white overflow-hidden relative bg-fructus-pink">
             <Image
-              src="/images/dewnithlogo.jpg"
+              src="/images/logo.jpeg"
               alt="Dawx666 Artist Portrait"
               fill
-              className="object-cover"
+              className="object-cover scale-125"
               priority
             />
           </div>
@@ -61,7 +61,7 @@ export function Hero({
               asChild
               variant="pink"
               size="lg"
-              className="rounded-full shadow-retro hover:scale-105 transition-transform"
+              className="rounded-full hover:scale-105 transition-transform"
             >
               <Link href={ctaLink} className="flex items-center gap-2 text-base font-black">
                 <ShoppingBag className="w-5 h-5" />

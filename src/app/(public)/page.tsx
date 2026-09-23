@@ -46,7 +46,7 @@ export default async function HomePage() {
             </div>
           </div>
 
-          <Button variant="outline" asChild className="rounded-full">
+          <Button asChild className="rounded-full bg-fructus-red hover:bg-fructus-redDark text-white transition-all">
             <Link href="/shop" className="flex items-center gap-1.5 font-black text-sm">
               <span>View All Shop Items</span>
               <ArrowRight className="w-4 h-4" />
