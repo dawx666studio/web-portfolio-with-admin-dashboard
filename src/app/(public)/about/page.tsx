@@ -41,9 +41,6 @@ export default async function AboutPage() {
             <div className="space-y-4 text-base sm:text-lg font-medium leading-relaxed">
               <p>{settings.bioParagraph1}</p>
               <p>{settings.bioParagraph2}</p>
-              <p>
-                Currently, I mainly work digitally on my iPad Pro using Procreate, Apple Pencil, and Aseprite for pixel art. When I dive into traditional mediums, my favorites include acrylic gouache, colored pencils, and bold paint markers!
-              </p>
             </div>
           </div>
         </div>

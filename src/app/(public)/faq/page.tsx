@@ -10,7 +10,7 @@ export default async function FaqPage() {
   const faqs = await getFaqs();
 
   return (
-    <div className="bg-fructus-red text-white py-16 sm:py-24 px-4 sm:px-6 lg:px-8 border-b-4 border-black min-h-[85vh]">
+    <div className="bg-fructus-red text-white py-16 sm:py-24 px-4 sm:px-6 lg:px-8 min-h-[85vh]">
       <div className="max-w-4xl mx-auto space-y-12">
         
         {/* Header */}
@@ -38,7 +38,7 @@ export default async function FaqPage() {
           <div className="pt-2">
             <Button variant="default" size="lg" asChild className="rounded-full">
               <Link href="/contact" className="flex items-center gap-2 font-black">
-                <Mail className="w-4 h-4" /> Contact Studio
+                Contact Us
               </Link>
             </Button>
           </div>

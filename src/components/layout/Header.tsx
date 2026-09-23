@@ -112,13 +112,7 @@ export function Header() {
                 </Link>
               );
             })}
-            <Link
-              href="/admin"
-              onClick={() => setMobileMenuOpen(false)}
-              className="px-4 py-2 rounded-xl text-sm font-bold text-muted-foreground hover:bg-cream-200"
-            >
-              Admin Dashboard
-            </Link>
+
           </div>
         )}
       </div>
